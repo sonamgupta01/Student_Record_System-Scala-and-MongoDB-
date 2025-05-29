@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- Add shutdown hook to clean up resources and prevent logging during shutdown -->
+    <shutdownHook class="ch.qos.logback.core.hook.DelayingShutdownHook"/>
+    
+    <!-- Silence status messages from Logback itself -->
+    <statusListener class="ch.qos.logback.core.status.NopStatusListener" />
+    
+    <!-- Ultra-minimal console appender - only shows the message without any metadata -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%msg%n</pattern>
+        </encoder>
+        <!-- Only show FATAL level errors (strictest filter) -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>OFF</level>
+        </filter>
+    </appender>
+    
+    <!-- Completely silence all MongoDB driver logs -->
+    <logger name="org.mongodb" level="OFF" additivity="false" />
+    <logger name="org.mongodb.driver" level="OFF" additivity="false" />
+    <logger name="com.mongodb" level="OFF" additivity="false" />
+    
+    <!-- Silence Netty logs (used by MongoDB) -->
+    <logger name="io.netty" level="OFF" additivity="false" />
+    
+    <!-- Silence SLF4J startup messages -->
+    <logger name="org.slf4j" level="OFF" additivity="false" />
+    
+    <!-- Silence all Scala and Java logging -->
+    <logger name="scala" level="OFF" additivity="false" />
+    <logger name="java" level="OFF" additivity="false" />
+    
+    <!-- Set root logger to OFF (most restrictive) -->
+    <root level="OFF">
+        <appender-ref ref="CONSOLE" />
+    </root>
+</configuration>
+
+
+

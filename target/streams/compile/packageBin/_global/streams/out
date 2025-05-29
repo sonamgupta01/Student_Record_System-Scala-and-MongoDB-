@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\studentrecordsystem_2.12-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Course$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\classes\Course$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Course.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\classes\Course.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\classes\logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScalaExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\classes\ScalaExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScalaExample$Student$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\classes\ScalaExample$Student$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScalaExample$Student.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\classes\ScalaExample$Student.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScalaExample$Subject$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\classes\ScalaExample$Subject$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScalaExample$Subject.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\classes\ScalaExample$Subject.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScalaExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\classes\ScalaExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Student$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\classes\Student$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Student.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\classes\Student.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\classes\StudentApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StudentApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\sonam\Desktop\SEM-6\BDA\BDA_PROJECT\student_record_system\target\scala-2.12\classes\StudentApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

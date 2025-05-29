@@ -1,0 +1,1 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: List(-Dfile.encoding=UTF-8, -Dlogback.configurationFile=logback.xml, -Djava.util.logging.config.file=none, -Dorg.mongodb.driver.level=OFF, -Djava.util.logging.level=OFF, -Dlog4j.logger.org.mongodb=OFF, -Dorg.slf4j.simpleLogger.defaultLogLevel=OFF)[0m

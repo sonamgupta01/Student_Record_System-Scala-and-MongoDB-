@@ -1,0 +1,1 @@
+[[{"${BASE}/src/main/resources/logback.xml":["${BASE}/target/scala-2.12/classes/logback.xml"]},{"${BASE}/target/scala-2.12/classes/logback.xml":["${BASE}/src/main/resources/logback.xml"]}],{"${BASE}/src/main/resources/logback.xml":{"file":"file:///C:/Users/sonam/Desktop/SEM-6/BDA/BDA_PROJECT/student_record_system/src/main/resources/logback.xml","lastModified":1748455251412}}]
