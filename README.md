@@ -180,16 +180,6 @@ If you encounter issues not covered in this guide, you can:
 3. Open an issue in the project's issue tracker
 4. Contact the project maintainers
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contributors
-
-- Your Name - Initial work
-
-## Acknowledgments
-
-- Professor and mentors for guidance throughout the BDA course
-- Open-source communities behind Scala, Spark, and MongoDB
 
