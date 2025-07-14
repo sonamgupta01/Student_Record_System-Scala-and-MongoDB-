@@ -52,51 +52,12 @@ or with the assembled JAR:
 ```bash
 java -jar target/scala-2.12/StudentRecordSystem-assembly-0.1.0.jar
 ```
+<img width="692" height="809" alt="image" src="https://github.com/user-attachments/assets/0a495b97-bb71-4c1c-98f8-b0ab9270e357" />
+<img width="830" height="604" alt="image" src="https://github.com/user-attachments/assets/c6f236dd-462b-4afc-bf59-6b497c34edcd" />
 
-### Code Examples
+<img width="788" height="906" alt="image" src="https://github.com/user-attachments/assets/5b038dc0-4b3f-4de8-8af4-6f0f0f58f5b8" />
 
-#### Creating a new student record
 
-```scala
-import StudentApp._
-
-val student = Student(
-  id = "S001",
-  name = "John Doe",
-  age = 20,
-  course = "Computer Science",
-  grades = Map("Math" -> 85.5, "Programming" -> 92.0, "Databases" -> 88.0)
-)
-
-createStudent(student) match {
-  case Success(result) => println(s"Student created successfully: ${student.name}")
-  case Failure(error) => println(s"Failed to create student: ${error.getMessage}")
-}
-```
-
-#### Retrieving all students
-
-```scala
-getAllStudents() match {
-  case Success(students) => 
-    println(s"Found ${students.length} students:")
-    students.foreach(s => println(s"${s.id}: ${s.name} (${s.course})"))
-  case Failure(error) => 
-    println(s"Failed to retrieve students: ${error.getMessage}")
-}
-```
-
-#### Analyzing student data
-
-```scala
-calculateAverageGradesByCourse() match {
-  case Success(dataFrame) => 
-    println("Average grades by course:")
-    dataFrame.show()
-  case Failure(error) => 
-    println(s"Failed to calculate average grades: ${error.getMessage}")
-}
-```
 
 ## Features
 
